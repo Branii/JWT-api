@@ -11,6 +11,10 @@ class ComposerStaticInit40f298120489e7bbed35600462641dc2
         array (
             'Nowakowskir\\JWT\\' => 16,
         ),
+        'M' => 
+        array (
+            'Medoo\\' => 6,
+        ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
@@ -21,6 +25,10 @@ class ComposerStaticInit40f298120489e7bbed35600462641dc2
         'Nowakowskir\\JWT\\' => 
         array (
             0 => __DIR__ . '/..' . '/nowakowskir/php-jwt/src',
+        ),
+        'Medoo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/catfan/medoo/src',
         ),
         'Firebase\\JWT\\' => 
         array (

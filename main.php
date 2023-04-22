@@ -1,18 +1,29 @@
 <?php
 require_once 'vendor/autoload.php'; // include the JWT library
+use \Firebase\JWT\JWT;
 
 // define your payload
 $payload = array(
     "user_id" => 123,
-    "username" => "john_doe",
-    "email" => "john.doe@example.com"
+    "username" => "braniibalck",
+    "email" => "braniblack@hotmain.com"
 );
 
 // set your secret key
-$secret_key = "my_secret_key";
+$key = random_bytes(10);
+$secret_key = bin2hex($key);
+echo $secret_key;
+// alg
+$alg = "HS256";
 
 // create the JWT
-$jwt = \Firebase\JWT\JWT::encode($payload, $secret_key);
+//echo $jwt; // output the token
 
-echo $jwt; // output the token
+// try {
+//     $decoded = JWT::decode($jwt, $secret_key, $alg);
+//     print_r($decoded);
+// } catch (Exception $e) {
+//     echo 'Caught exception: ',  $e->getMessage(), "\n";
+// }
+
 ?>

@@ -1,6 +1,7 @@
 {
     "require": {
         "nowakowskir/php-jwt": "^2.1",
-        "firebase/php-jwt": "^6.4"
+        "firebase/php-jwt": "^6.4",
+        "catfan/medoo": "^2.1"
     }
 }
