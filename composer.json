@@ -1,5 +1,6 @@
 {
     "require": {
-        "nowakowskir/php-jwt": "^2.1"
+        "nowakowskir/php-jwt": "^2.1",
+        "firebase/php-jwt": "^6.4"
     }
 }
