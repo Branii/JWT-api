@@ -54,6 +54,10 @@ class ComposerStaticInit40f298120489e7bbed35600462641dc2
         array (
             'GuzzleHttp\\Psr7\\' => 16,
         ),
+        'M' => 
+        array (
+            'Medoo\\' => 6,
+        ),
         'F' => 
         array (
             'Firebase\\JWT\\' => 13,
@@ -137,6 +141,10 @@ class ComposerStaticInit40f298120489e7bbed35600462641dc2
         'GuzzleHttp\\Psr7\\' => 
         array (
             0 => __DIR__ . '/..' . '/guzzlehttp/psr7/src',
+        ),
+        'Medoo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/catfan/medoo/src',
         ),
         'Firebase\\JWT\\' => 
         array (
